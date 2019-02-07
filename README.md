@@ -40,7 +40,7 @@ The directory structure of your new project looks like this:
 │
 ├── scratch            <- Exploratory code. Naming convention is a date (for ordering),
 │                         the creator's initials, and a short `_` delimited description, e.g.
-│                         `20190201-LB-initial-data-exploration.py`.
+│                         `20190201_LB_initial_data_exploration.py`.
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
