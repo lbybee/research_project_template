@@ -1,0 +1,9 @@
+param_task_kwds :
+    proj_dir : {{ cookiecutter.base_dir }}/{{ cookiecutter.project_name }}
+    cache_sdir : cache
+    collection_sdir : raw
+    transformation_sdir : intermediate
+    estimation_sdir : results
+    visualization_sdir : summaries
+    scratch_sdir : scratch
+    project : {{ cookiecutter.project_name }}
