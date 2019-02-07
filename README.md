@@ -25,9 +25,6 @@ $ conda install cookiecutter
     cookiecutter https://github.com/lbybee/research_project_template
 
 
-[![asciicast](https://asciinema.org/a/9bgl5qh17wlop4xyxu9n9wr02.png)](https://asciinema.org/a/9bgl5qh17wlop4xyxu9n9wr02)
-
-
 ### The resulting directory structure
 ------------
 
