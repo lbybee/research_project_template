@@ -51,7 +51,7 @@ The directory structure of your new project looks like this:
     │
     ├── collection          <- Scripts to download or generate data
     │
-    ├── transformation      <- Scripts to turn raw data into features for modeling
+    ├── data_prep           <- Scripts to turn raw data into features for modeling
     │
     ├── estimation          <- Scripts to estimate models
     │
