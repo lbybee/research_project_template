@@ -1,5 +1,7 @@
 param_task_kwds :
-    proj_dir : {{ cookiecutter.base_dir }}/{{ cookiecutter.project_name }}
+    base_dir : {{ cookiecutter.base_dir }}
+    proj_dir : {{ cookiecutter.base_dir }}{{ cookiecutter.proj_dir }}
+    master_log : {{ cookiecutter.base_dir }}{{ cookiecutter.master_log }}
     cache : cache
     collection : raw
     data_prep : intermediate

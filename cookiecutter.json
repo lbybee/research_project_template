@@ -1,6 +1,8 @@
 {
     "project_name": "project_name",
-    "base_dir": "Root directory where data files will be located.",
+    "base_dir": "Base directory for file system. All other defaults will be defined relative to this",
+    "proj_dir": "Project directory where data files will be located (relative to base_dir).",
+    "master_log": "Location of log file which can be shared across projects (relative to base_dir).",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author_name": "Your name (or your organization/company/team)",
     "description": "A short description of the project.",
