@@ -1,11 +1,10 @@
-param_task_kwds :
-    base_dir : {{ cookiecutter.base_dir }}
-    proj_dir : {{ cookiecutter.base_dir }}/{{ cookiecutter.proj_dir }}
-    master_log : {{ cookiecutter.base_dir }}/{{ cookiecutter.master_log }}
-    cache : cache
-    collection : raw
-    data_prep : intermediate
-    estimation : results
-    visualization : summaries
-    scratch : scratch
-    project : {{ cookiecutter.project_name }}
+base_dir : {{ cookiecutter.base_dir }}
+proj_dir : {{ cookiecutter.base_dir }}/{{ cookiecutter.proj_dir }}
+master_log : {{ cookiecutter.base_dir }}/{{ cookiecutter.master_log }}
+cache : cache
+collection : raw
+data_prep : intermediate
+estimation : results
+visualization : summaries
+scratch : scratch
+project : {{ cookiecutter.project_name }}
