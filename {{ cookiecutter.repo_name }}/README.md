@@ -14,10 +14,6 @@ Project Organization
     │
     ├── notes              <- Latex scratch notes
     │
-    ├── scratch            <- Exploratory code. Naming convention is a date (for ordering),
-    │                         the creator's initials, and a short `_` delimited description, e.g.
-    │                         `20190201_LB_initial_data_exploration.py`.
-    │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
@@ -30,7 +26,9 @@ Project Organization
         │
         ├── estimation          <- Scripts to estimate models
         │
-        └── visualization       <- Scripts to create visualizations
+        ├── summary             <- Scripts to create visualizations
+        │
+        └── undecided           <- Misc. scripts which may end up categorized later
 
 --------
 

@@ -1,10 +1,9 @@
 base_dir : {{ cookiecutter.base_dir }}
 proj_dir : {{ cookiecutter.base_dir }}/{{ cookiecutter.proj_dir }}
-master_log : {{ cookiecutter.base_dir }}/{{ cookiecutter.master_log }}
-cache : cache
-collection : raw
-data_prep : intermediate
-estimation : results
-visualization : summaries
-scratch : scratch
-project : {{ cookiecutter.project_name }}
+log_file : {{ cookiecutter.base_dir }}/{{ cookiecutter.proj_dir}}/{{ cookiecutter.log_file }}
+cache_dir : .cache
+cache : True
+lock : True
+mdir_keys :
+    - out_dir
+    - cache_dir
