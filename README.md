@@ -43,15 +43,4 @@ The directory structure of your new project looks like this:
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │
 └── src                <- Source code for use in this project.
-    ├── __init__.py    <- Makes src a Python module
-    │
-    ├── collection          <- Scripts to download or generate data
-    │
-    ├── data_prep           <- Scripts to turn raw data into features for modeling
-    │
-    ├── estimation          <- Scripts to estimate models
-    │
-    ├── summary             <- Scripts to create visualizations
-    │
-    └── undecided           <- Misc. scripts which may end up categorized later
 ```

@@ -19,16 +19,6 @@ Project Organization
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │
     └── src                <- Source code for use in this project.
-        │
-        ├── collection          <- Scripts to download or generate data
-        │
-        ├── data_prep           <- Scripts to turn raw data into features for modeling
-        │
-        ├── estimation          <- Scripts to estimate models
-        │
-        ├── summary             <- Scripts to create visualizations
-        │
-        └── undecided           <- Misc. scripts which may end up categorized later
 
 --------
 
