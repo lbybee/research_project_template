@@ -63,6 +63,11 @@ target/
 *.db
 *.rdb
 
+# data files
+*.csv
+*.json
+*.pkl
+
 # Pycharm
 .idea
 
@@ -87,3 +92,10 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+# labbot/dask dirs
+slurm*
+dask-worker-space/
+.labbot/
+.cache/
+.dataloc/
