@@ -95,6 +95,7 @@ target/
 
 # labbot/dask dirs
 slurm*
+worker*
 dask-worker-space/
 .labbot/
 .cache/
